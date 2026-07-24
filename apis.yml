@@ -1,7 +1,26 @@
 aid: beaubble
 name: Beaubble
-description: Beaubble is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Beaubble is a community-driven beauty commerce platform that lets creators
+  launch their own customized, premium beauty brands and products by engaging their
+  audiences. The company runs a direct-to-consumer storefront at beaubble.com featuring
+  creator-led lines from talent such as Teni Panosian, Elsa Hosk, Shanina Shaik, Abbie
+  Herbert, Rudi Berry, and Avrey Ovard, selling items like lip stains, freckle pens,
+  and curated bundles. Backed by 500 Global, Beaubble is a consumer e-commerce brand
+  with no public developer API surface; this profile was created by the API Evangelist
+  enrichment pipeline and captures the company''s public web presence and domain-security
+  posture.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://beaubble.com/1a7f3d6a357c4381434a0467179b1a46.jpg
 url: https://raw.githubusercontent.com/api-evangelist/beaubble/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,18 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Beauty
+- Cosmetics
+- Ecommerce
+- Creator Economy
+- Direct-to-Consumer
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beaubble-domain-security.yml
 - type: Website
   url: https://beaubble.com
+- type: PrivacyPolicy
+  url: https://beaubble.com/l/privacy-policy
+- type: TermsOfService
+  url: https://beaubble.com/l/terms-of-use
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
